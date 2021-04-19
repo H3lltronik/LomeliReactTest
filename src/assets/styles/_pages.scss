@@ -5,8 +5,11 @@ a {
     }
 }
 
-.home {
+.base {
     min-height: 100vh;
+}
+
+.home {
     &_logo {
         object-fit: contain;
         width: 200px; height: 230px;

@@ -51,14 +51,16 @@ a {
   a:hover {
     text-decoration: none !important; }
 
-.home {
+.base {
   min-height: 100vh; }
-  .home_logo {
-    object-fit: contain;
-    width: 200px;
-    height: 230px; }
-  .home_form {
-    max-width: 650px; }
+
+.home_logo {
+  object-fit: contain;
+  width: 200px;
+  height: 230px; }
+
+.home_form {
+  max-width: 650px; }
 
 .input-w-prepend-icon {
   width: 100%;

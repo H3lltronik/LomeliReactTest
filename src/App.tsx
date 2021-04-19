@@ -1,9 +1,8 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+
+  Route, Switch
 } from "react-router-dom";
 import Categories from './app/Categories/Categories';
 import Home from './app/Home/Home';
@@ -14,7 +13,7 @@ function App() {
   return (
     <div className={"row"}>
       <div className={"col-12"}>
-          <div className="row home justify-content-center d-flex align-items-center justify-content-center">
+          <div className="row base justify-content-center d-flex align-items-center justify-content-center">
             <div className="col-12 col-lg-8">
             <Router>
               <Switch>
