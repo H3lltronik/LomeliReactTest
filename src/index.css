@@ -3573,6 +3573,13 @@ html, body {
   width: 300px;
   height: 80px; }
 
+.categories_search-icon {
+  right: 0 !important; }
+  .categories_search-icon, .categories_search-icon * {
+    height: 100%; }
+  .categories_search-icon img {
+    object-fit: cover; }
+
 .amount_item {
   height: 70px;
   font-size: 1.875rem; }
@@ -3594,6 +3601,9 @@ html, body {
     top: 50%;
     left: 10px;
     transform: translateY(-50%); }
+    .input-w-prepend-icon_icon--right {
+      left: unset;
+      right: 10px; }
 
 .button {
   width: 100%;

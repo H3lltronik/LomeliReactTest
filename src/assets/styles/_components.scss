@@ -11,6 +11,10 @@
         position: absolute;
         top: 50%; left: 10px;
         transform: translateY(-50%);
+        &--right {
+            left: unset;
+            right: 10px;
+        }
     }
 }
 

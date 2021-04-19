@@ -14,12 +14,12 @@ const Home = function Home() {
                     <div className="row">
                         <div className="col-12">
                             <div className="row justify-content-center mt-5 mt-lg-5">
-                                <Input placeholder="Usuario" type={"text"} icon={{name: 'user'}}></Input>
+                                <Input placeholder="Usuario" type={"text"} leftIcon={{name: 'user'}}></Input>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="row justify-content-center mt-4">
-                                <Input placeholder="Contraseña" type={"password"} icon={{name: 'password'}}></Input>
+                                <Input placeholder="Contraseña" type={"password"} leftIcon={{name: 'password'}}></Input>
                             </div>
                         </div>
                         <div className="col-12 mt-4 mt-lg-4">
