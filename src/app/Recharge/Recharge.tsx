@@ -1,10 +1,29 @@
-import React, { memo } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
+import {
+    BrowserRouter as Router,
+    Route, Switch
+  } from "react-router-dom";
+import { routes } from '../Shared/routes';
+import Amount from './Amount';
+import Company from './Company';
+import Done from './Done';
+import Form from './Form';
 
 const Recharge = function Recharge() {
     return (
-        <div>
-            Recharge
+        <div className="row justify-content-center">
+          <Route exact path={routes.rechargeFirst}>
+            <Company/>
+          </Route>
+          <Route exact path={routes.rechargeSecond}>
+            <Amount/>
+          </Route>
+          <Route exact path={routes.rechargeThird}>
+            <Form/>
+          </Route>
+          <Route exact path={routes.rechargeLast}>
+            <Done/>
+          </Route>
         </div>
     )
 }

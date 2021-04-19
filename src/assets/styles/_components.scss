@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     &_input {
-        padding-left: 60px;
+        padding: 0 60px;
         border-radius: 5px;
         height: 57px; width: 100%;
         border: 1px solid #dbdcdf;
@@ -24,5 +24,15 @@
     transition: opacity 0.3s ease-in-out;
     &:hover {
         opacity: 0.6;
+    }
+}
+
+.product {
+    position: relative;
+    &_name {
+        z-index: 10;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

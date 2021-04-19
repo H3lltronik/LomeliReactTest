@@ -2,13 +2,13 @@ import React from 'react'
 import Icon from '../Shared/Icon'
 import { IconImage } from '../Shared/icons'
 
-type InputWPrepIconProps = {
+type InputProps = {
     icon?: IconImage,
     type?: string,
     placeholder?: string,
 }
 
-export default function InputWPrepIcon(props: InputWPrepIconProps) {
+export default function Input(props: InputProps) {
     return (
         <div className={"input-w-prepend-icon"}>
             {

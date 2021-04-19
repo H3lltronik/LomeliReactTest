@@ -1,93 +1,3 @@
-.text-color_white {
-  color: white; }
-
-.text-color_black {
-  color: black; }
-
-.text-color_dark {
-  color: #A5E7AB; }
-
-.text-color_form {
-  color: #b8bac0; }
-
-.background-color_main {
-  background-color: #EC8BFF; }
-
-.background-color_dark {
-  background-color: #A5E7AB; }
-
-.background-color_form {
-  background-color: #b8bac0; }
-
-.background-color_secondary {
-  background-color: #A5E7AB; }
-
-@font-face {
-  font-family: 'AvenirLTStd-Roman';
-  src: url("assets/fonts/AvenirLTStd-Roman.eot");
-  src: url("assets/fonts/AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'AvenirLTStd-Book';
-  src: url("assets/fonts/AvenirLTStd-Book.eot");
-  src: url("assets/fonts/AvenirLTStd-Book.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'AvenirLTStd-Black';
-  src: url("assets/fonts/AvenirLTStd-Black.eot");
-  src: url("assets/fonts/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap; }
-
-a {
-  text-decoration: none; }
-  a:hover {
-    text-decoration: none !important; }
-
-.base {
-  min-height: 100vh; }
-
-.home_logo {
-  object-fit: contain;
-  width: 200px;
-  height: 230px; }
-
-.home_form {
-  max-width: 650px; }
-
-.input-w-prepend-icon {
-  width: 100%;
-  position: relative; }
-  .input-w-prepend-icon_input {
-    padding-left: 60px;
-    border-radius: 5px;
-    height: 57px;
-    width: 100%;
-    border: 1px solid #dbdcdf; }
-  .input-w-prepend-icon_icon {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%); }
-
-.button {
-  width: 100%;
-  border: none;
-  outline: none;
-  padding: 10px 0;
-  text-align: center;
-  border-radius: 5px;
-  transition: opacity 0.3s ease-in-out; }
-  .button:hover {
-    opacity: 0.6; }
-
 .align-baseline {
   vertical-align: baseline !important; }
 
@@ -3589,3 +3499,118 @@ template {
     margin-left: 83.33333%; }
   .offset-xl-11 {
     margin-left: 91.66667%; } }
+
+.text-color_white {
+  color: white; }
+
+.text-color_black {
+  color: black; }
+
+.text-color_dark {
+  color: #5D5D5D; }
+
+.text-color_form {
+  color: #b8bac0; }
+
+.background-color_main {
+  background-color: #EC8BFF; }
+
+.background-color_dark {
+  background-color: #5D5D5D; }
+
+.background-color_form {
+  background-color: #b8bac0; }
+
+.background-color_secondary {
+  background-color: #A5E7AB; }
+
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url("assets/fonts/AvenirLTStd-Roman.eot");
+  src: url("assets/fonts/AvenirLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AvenirLTStd-Roman.woff2") format("woff2"), url("assets/fonts/AvenirLTStd-Roman.woff") format("woff"), url("assets/fonts/AvenirLTStd-Roman.ttf") format("truetype"), url("assets/fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url("assets/fonts/AvenirLTStd-Book.eot");
+  src: url("assets/fonts/AvenirLTStd-Book.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AvenirLTStd-Book.woff2") format("woff2"), url("assets/fonts/AvenirLTStd-Book.woff") format("woff"), url("assets/fonts/AvenirLTStd-Book.ttf") format("truetype"), url("assets/fonts/AvenirLTStd-Book.svg#AvenirLTStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'AvenirLTStd-Black';
+  src: url("assets/fonts/AvenirLTStd-Black.eot");
+  src: url("assets/fonts/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/AvenirLTStd-Black.woff2") format("woff2"), url("assets/fonts/AvenirLTStd-Black.woff") format("woff"), url("assets/fonts/AvenirLTStd-Black.ttf") format("truetype"), url("assets/fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+
+a, a:hover {
+  color: unset;
+  text-decoration: none; }
+
+html, body {
+  font-family: 'AvenirLTStd-Roman' !important; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
+.base {
+  min-height: 100vh; }
+  .base_body {
+    max-width: 650px; }
+
+.home_logo {
+  object-fit: contain;
+  width: 200px;
+  height: 230px; }
+
+.categories_logo {
+  object-fit: contain;
+  width: 300px;
+  height: 80px; }
+
+.amount_item {
+  height: 70px;
+  font-size: 1.875rem; }
+  .amount_item_inner:hover {
+    border-radius: 8px;
+    border: 3px solid #A5E7AB; }
+
+.input-w-prepend-icon {
+  width: 100%;
+  position: relative; }
+  .input-w-prepend-icon_input {
+    padding: 0 60px;
+    border-radius: 5px;
+    height: 57px;
+    width: 100%;
+    border: 1px solid #dbdcdf; }
+  .input-w-prepend-icon_icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%); }
+
+.button {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out; }
+  .button:hover {
+    opacity: 0.6; }
+
+.product {
+  position: relative; }
+  .product_name {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }

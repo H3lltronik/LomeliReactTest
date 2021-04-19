@@ -20,7 +20,7 @@ function App() {
                 <Route exact path={routes.categories}>
                   <Categories/>
                 </Route>
-                <Route exact path={routes.rechargeFirst}>
+                <Route path={routes.recharge}>
                   <Recharge/>
                 </Route>
                 <Route exact path={routes.home}>

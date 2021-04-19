@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/icons/logo_1.png'
 import { routes } from '../Shared/routes'
-import InputWPrepIcon from './InputWPrepIcon'
+import Input from './Input'
 
 const Home = function Home() {
     return (
@@ -10,16 +10,16 @@ const Home = function Home() {
             <div className="text-center"><img className="home_logo" src={logo} alt="logo"/></div>
 
             <div className="row justify-content-center px-4 px-lg-0">
-                <form className={"home_form"} action="">
+                <form className={"base_body"} action="">
                     <div className="row">
                         <div className="col-12">
                             <div className="row justify-content-center mt-5 mt-lg-5">
-                                <InputWPrepIcon placeholder="Usuario" type={"text"} icon={{name: 'user'}}></InputWPrepIcon>
+                                <Input placeholder="Usuario" type={"text"} icon={{name: 'user'}}></Input>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="row justify-content-center mt-4">
-                                <InputWPrepIcon placeholder="Contraseña" type={"password"} icon={{name: 'password'}}></InputWPrepIcon>
+                                <Input placeholder="Contraseña" type={"password"} icon={{name: 'password'}}></Input>
                             </div>
                         </div>
                         <div className="col-12 mt-4 mt-lg-4">
