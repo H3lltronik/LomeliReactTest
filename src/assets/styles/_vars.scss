@@ -1,0 +1,34 @@
+$main-color: #EC8BFF;
+$secondary-color: #A5E7AB;
+$dark-color: #A5E7AB;
+$form-color: #b8bac0;
+
+$text-colors-array: (
+    'white': white,
+    'black': black,
+    'dark': $dark-color,
+    'form': $form-color,
+);
+    
+$background-colors-array: (
+    'main': $main-color,
+    'dark': $dark-color,
+    'form': $form-color,
+    'secondary': $secondary-color,
+);
+
+.text-color {
+    @each $name, $val in $text-colors-array {
+        &_#{$name} {
+            color: $val;
+        }
+    }
+}
+
+.background-color {
+    @each $name, $val in $background-colors-array {
+        &_#{$name} {
+            background-color: $val;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.input-w-prepend-icon {
+    width: 100%;
+    position: relative;
+    &_input {
+        padding-left: 60px;
+        border-radius: 5px;
+        height: 57px; width: 100%;
+        border: 1px solid #dbdcdf;
+    }
+    &_icon {
+        position: absolute;
+        top: 50%; left: 10px;
+        transform: translateY(-50%);
+    }
+}
+
+.button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+.home {
+    min-height: 100vh;
+    &_logo {
+        object-fit: contain;
+        width: 200px; height: 230px;
+    }
+    &_form {
+        max-width: 650px;
+    }
+}
