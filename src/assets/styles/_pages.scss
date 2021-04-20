@@ -12,7 +12,7 @@ html, body {
 }
 
 .base {
-    min-height: 100vh;
+    min-height: calc(100vh - #{$footer-height});
     &_body {
         max-width: 650px;
     }
@@ -29,6 +29,9 @@ html, body {
     &_logo {
         object-fit: contain;
         width: 300px; height: 80px;
+        @include media-breakpoint-down (sm) {
+            width: 100%;
+        }
     }
     &_search-icon {
         right: 0 !important;
@@ -51,5 +54,27 @@ html, body {
                 border: 3px solid $secondary-color;
             }
         }
+    }
+}
+
+.form {
+    &_label {
+        color: $dark-color;
+        @include font-size (20px);
+        font-family: "AvenirLTStd-Roman";
+    }
+    &_icon {
+        *, & {
+            height: 100%;
+        }
+        img {
+            padding: 10px 0;
+        }
+    }
+}
+
+.done {
+    &_body {
+        max-width: 350px;
     }
 }

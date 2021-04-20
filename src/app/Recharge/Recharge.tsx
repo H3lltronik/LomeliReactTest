@@ -11,7 +11,7 @@ import Form from './Form';
 
 const Recharge = function Recharge() {
     return (
-        <div className="row justify-content-center">
+        <div className="row justify-content-center h-100">
           <Route exact path={routes.rechargeFirst}>
             <Company/>
           </Route>

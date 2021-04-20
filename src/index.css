@@ -3559,7 +3559,7 @@ html, body {
   cursor: pointer; }
 
 .base {
-  min-height: 100vh; }
+  min-height: calc(100vh - 65px); }
   .base_body {
     max-width: 650px; }
 
@@ -3572,6 +3572,9 @@ html, body {
   object-fit: contain;
   width: 300px;
   height: 80px; }
+  @media (max-width: 767.98px) {
+    .categories_logo {
+      width: 100%; } }
 
 .categories_search-icon {
   right: 0 !important; }
@@ -3586,6 +3589,20 @@ html, body {
   .amount_item_inner:hover {
     border-radius: 8px;
     border: 3px solid #A5E7AB; }
+
+.form_label {
+  color: #5D5D5D;
+  font-size: 1.25rem;
+  font-family: "AvenirLTStd-Roman"; }
+
+.form_icon *, .form_icon {
+  height: 100%; }
+
+.form_icon img {
+  padding: 10px 0; }
+
+.done_body {
+  max-width: 350px; }
 
 .input-w-prepend-icon {
   width: 100%;
@@ -3624,3 +3641,11 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .product img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%; }
+
+.footer {
+  width: 100vw;
+  height: 65px; }

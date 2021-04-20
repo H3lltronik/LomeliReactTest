@@ -11,6 +11,7 @@ type InputProps = {
     type?: string,
     placeholder?: string,
     rightIconAction?: any,
+    inputClass?: string
 }
 
 export default function Input(props: InputProps) {
@@ -23,7 +24,7 @@ export default function Input(props: InputProps) {
                 </div>
                 :null
             }
-            <input className={"input-w-prepend-icon_input"} 
+            <input className={`input-w-prepend-icon_input ${props.inputClass}`} 
             type={props.type? props.type:'text'} 
             placeholder={props.placeholder}/>
             {

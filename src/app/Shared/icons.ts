@@ -8,8 +8,11 @@ import user from '../../assets/images/icons/user.png'
 import search from '../../assets/images/icons/search.png'
 import youtube from '../../assets/images/icons/youtube.png'
 
+import visa from '../../assets/images/icons/cards/visa.png'
+import mastercard from '../../assets/images/icons/cards/mastercard.png'
+
 export type IconImage = {
-    name:  'check' | 'password' | 'facebook' | 'home' | 'medium' | 'back' | 'user' | 'youtube' | 'search';
+    name:  'check' | 'password' | 'facebook' | 'home' | 'medium' | 'back' | 'user' | 'youtube' | 'search' | 'visa' |'mastercard';
 }
 
 export const icons = {
@@ -22,6 +25,8 @@ export const icons = {
     user,
     search,
     youtube,
+    visa,
+    mastercard,
 }
 
 export function getIcon (icon: IconImage) {
